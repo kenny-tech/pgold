@@ -1,23 +1,9 @@
 <?php
 
-use App\Http\Controllers\API\V1\AppVersionController;
-use App\Http\Controllers\API\V1\BeneficiaryController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\V1\BillerController;
-use App\Http\Controllers\API\V1\CommissionController;
-use App\Http\Controllers\API\V1\FcmController;
-use App\Http\Controllers\API\V1\FlwWebhookController;
-use App\Http\Controllers\API\V1\ItemController;
-use App\Http\Controllers\API\V1\NotificationController;
 use App\Http\Controllers\API\V1\UserController;
-use App\Http\Controllers\API\V1\PaymentController;
 use App\Http\Controllers\API\V1\RateController;
-use App\Http\Controllers\API\V1\ReferralController;
-use App\Http\Controllers\API\V1\SecurityController;
-use App\Http\Controllers\API\V1\TransactionController;
-use App\Http\Controllers\API\V1\VTPassVerificationController;
-use App\Http\Controllers\API\V1\WalletController;
-use Illuminate\Support\Facades\Artisan;
+
 
 /*
 |--------------------------------------------------------------------------
